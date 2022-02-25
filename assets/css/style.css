@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #FFC900;
+  background: #FFFDD2;
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header.header-scrolled {
   top: 0;
-  background: #ffc1076b;
+  background: #ffe69a6b;
   border-bottom: 1px solid #37332a;
 }
 #header .logo {
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 #header .logo a {
   color: #fff;
@@ -245,11 +245,12 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 17px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -403,14 +404,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/parrila_hero.jpg") top center;
+  background: url("../img/parrilla2.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 254, 229, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -439,14 +440,17 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
-  font-size: 22px;
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
 }
 #hero .btns {
   margin-top: 30px;
+  text-align: center;
 }
 #hero .btn-menu, #hero .btn-book {
+  background-color: #FFFDD2; !important;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 17px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   display: inline-block;
@@ -454,12 +458,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: white;
+  color: black;
   border: 2px solid #FFC900;
+  font-family: 'Playfair Display', serif;
 }
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #cda45e;
-  color: #fff;
+  background: #FFFA90;
+  color: black;
+
 }
 #hero .btn-book {
   margin-left: 15px;
@@ -623,6 +629,16 @@ section {
   font-family: "Playfair Display", serif;
   color: #cda45e;
 }
+/*--------------------------------------------------------------
+# Gift Card
+--------------------------------------------------------------*/
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # About
@@ -934,7 +950,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/EventosBG.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1569,24 +1585,34 @@ img.pequenia {
   .giftcard {
      
   }
-
- .gradient-custom {
+.gradient-custom {
   /* fallback for old browsers */
-  background: #ffd857;
+  background: #ffcf33;
 
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to bottom, rgba(255, 216, 87, 1), rgba(255, 238, 46, 1));
+  background: -webkit-linear-gradient(to right, rgba(255, 207, 51, 0.75), rgba(255, 242, 214, 0.75));
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to bottom, rgba(255, 216, 87, 1), rgba(255, 238, 46, 1))
+  background: linear-gradient(to right, rgba(255, 207, 51, 0.75), rgba(255, 242, 214, 0.75))
 }
 
-
 img.mediana {
-  width: 350px; height: auto;
+  width: auto; 
+  height: 250px;
   margin-top: 10px;
   margin-bottom: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
    }
+
+
+.stroke {
+text-shadow: rgb(10, 11, 11) 2px 0px 0px, rgb(10, 11, 11) 1.75517px 0.958851px 0px, 
+rgb(10, 11, 11) 1.0806px 1.68294px 0px, rgb(10, 11, 11) 0.141474px 1.99499px 0px, 
+rgb(10, 11, 11) -0.832294px 1.81859px 0px, rgb(10, 11, 11) -1.60229px 1.19694px 0px, 
+rgb(10, 11, 11) -1.97998px 0.28224px 0px, rgb(10, 11, 11) -1.87291px -0.701566px 0px, 
+rgb(10, 11, 11) -1.30729px -1.5136px 0px, rgb(10, 11, 11) -0.421592px -1.95506px 0px, 
+rgb(10, 11, 11) 0.567324px -1.91785px 0px, rgb(10, 11, 11) 1.41734px -1.41108px 0px, 
+rgb(10, 11, 11) 1.92034px -0.558831px 0px;
+}
