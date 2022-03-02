@@ -167,7 +167,6 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
-  padding: 5px 0;
   top: 0px;
 }
 #header.header-scrolled {
@@ -189,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 35px;
 }
 
 /*--------------------------------------------------------------
@@ -1598,9 +1597,9 @@ img.pequenia {
 
 img.mediana {
   width: auto; 
-  height: 250px;
+  height: 260px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: ;
   display: flex;
   justify-content: center;
    }
@@ -1614,4 +1613,16 @@ rgb(10, 11, 11) -1.97998px 0.28224px 0px, rgb(10, 11, 11) -1.87291px -0.701566px
 rgb(10, 11, 11) -1.30729px -1.5136px 0px, rgb(10, 11, 11) -0.421592px -1.95506px 0px, 
 rgb(10, 11, 11) 0.567324px -1.91785px 0px, rgb(10, 11, 11) 1.41734px -1.41108px 0px, 
 rgb(10, 11, 11) 1.92034px -0.558831px 0px;
+}
+
+
+.mini{
+  height: 100px;
+  width: auto;
+}
+
+.LogoCentrado img{
+  position: fixed;
+  top: 30%; left: 50%;
+  transform: translate(-50%, -50%)
 }
